@@ -3,10 +3,10 @@
     padding:0;
 }
 
-.box{
+body{
     background-color:rgb(224, 213, 213);
     background-position: center;
-    background-size: cover;
+    margin-top:-9px;
     height:100vh;
     width:100%;
 
@@ -48,13 +48,17 @@ a{
 }
 
 li:hover{
-    background-color: rgb(232, 232, 157);
+    background-color: rgb(255, 255, 255);
+}
+
+.sec{
+    display: flex;
 }
 
 
 #home{
     width:50%;
-    margin-left:5%;
+    margin-left:100px;
     margin-top:150px;
 }
 
@@ -71,5 +75,48 @@ li:hover{
 
 #home p{
     font-size:1.4rem;
+}
+
+.img{
+    width:150px;
+    height: 150px;
+    position: relative;
+    top:51px;
+    left: 150px;
+    
+}
+
+.pic{
+    display: inline-block;
+    width:250px;
+    height:250px;
+}
+
+#abt{
+    margin-top:400px;
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+    height:50vh;
+    border:2px solid red;
+}
+
+#abt h1{
+    text-align: center;
+    font-size:2.4rem;
+}
+
+.about{
+    height:40%;
+    width:95%;
+    margin-top:16px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.about section p{
+    margin-top:20px;
+    font-size:1.9rem;
 }
 
