@@ -53,7 +53,7 @@ li:hover{
 
 .sec{
     display: flex;
-}
+} 
 
 
 #home{
@@ -96,9 +96,9 @@ li:hover{
     margin-top:400px;
     margin-left: auto;
     margin-right: auto;
-    width:95%;
+    width:100%;
     height:50vh;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 
 #abt h1{
@@ -106,17 +106,74 @@ li:hover{
     font-size:2.4rem;
 }
 
-.about{
+.row{
     height:40%;
     width:95%;
     margin-top:16px;
     margin-left:auto;
     margin-right: auto;
+    display: flex;
+}
+
+.col img{
+    height:300px;
+    width:500px;
+    margin-right:10px;
 }
 
 
-.about section p{
+.col section p{
     margin-top:20px;
     font-size:1.9rem;
 }
 
+#skills{
+    margin-top:100px;
+}
+
+#skills h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:15px;
+}
+
+.icons img{
+    height:200px;
+    width:200px;
+    padding:40px;
+}
+
+#contact{
+    margin-top:100px;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.contact_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact_icons img{
+    margin:8px 40px;
+}
+
+
+
+.contact_icons a img{
+    height:100px;
+    width:100px;
+}
